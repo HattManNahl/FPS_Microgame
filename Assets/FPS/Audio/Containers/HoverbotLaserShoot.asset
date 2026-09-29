@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-4423690722917858446
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Laser_Simple-003_{-4423690722917858446}
+  m_AudioClip: {fileID: 8300000, guid: 203c9847aaba8bd42b8b30e3ac662c3b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2150180394723764856
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Laser_Simple-002_{2150180394723764856}
+  m_AudioClip: {fileID: 8300000, guid: 6e8d39d3f039eec4fa42c3e4bfeb19be, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3641566124081506003
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Laser_Simple-001_{3641566124081506003}
+  m_AudioClip: {fileID: 8300000, guid: 52978cfb7ef8afd44a45c7fa83700b72, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HoverbotLaserShoot
+  m_Volume: 0
+  m_Pitch: 731
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -2.8070164, y: 0}
+  m_PitchRandomizationRange: {x: -153.49835, y: 226.99341}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 3641566124081506003}
+  - {fileID: 2150180394723764856}
+  - {fileID: -4423690722917858446}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0

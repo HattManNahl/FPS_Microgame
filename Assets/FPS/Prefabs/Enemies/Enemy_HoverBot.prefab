@@ -183,7 +183,6 @@ MonoBehaviour:
     m_NumColorKeys: 4
     m_NumAlphaKeys: 2
   FlashOnHitDuration: 0.2
-  DamageTick: {fileID: 8300000, guid: a7fae22399a6e1d448dc0dd2210f1dac, type: 3}
   DeathVfx: {fileID: 8950624839484268180, guid: 2a8f5052fe50f7b41b17149abb0f7414,
     type: 3}
   DeathVfxSpawnPoint: {fileID: 381893446485871685}
@@ -216,14 +215,8 @@ MonoBehaviour:
   - {fileID: 6104096765092005263}
   - {fileID: 1407167163009738010}
   - {fileID: 8934028655093144013}
-  OnDetectSfx: {fileID: 8300000, guid: 25722734eeccba042a18e26e376ca542, type: 3}
-  alertSfx: {fileID: 6418180475301049370, guid: 3c72ce82551af53439ae67eee6ca04d5,
-    type: 2}
   alertSource: {fileID: 2728701690181728318}
   damageSource: {fileID: 7795378780609669577}
-  MovementSound: {fileID: 8300000, guid: 9e4c5bde3729dd14eb49fdaacd029b7d, type: 3}
-  hoverSound: {fileID: 6418180475301049370, guid: 1731ab2cc0f40774fb36a7b81b4c3806,
-    type: 2}
   PitchDistortionMovementSpeed:
     Min: 1
     Max: 1.5
@@ -1035,7 +1028,7 @@ MonoBehaviour:
   MuzzleFlashPrefab: {fileID: 3930201484039205849}
   UnparentMuzzleFlash: 0
   ShootSfx: {fileID: 8300000, guid: a56e3c9f90e17894eb1625f603eceb54, type: 3}
-  laserSFX: {fileID: 6418180475301049370, guid: 29b131d5c658e634daf5bd3167020e0f,
+  laserSFX: {fileID: 6418180475301049370, guid: 9681432bc22c8db478ea0d96bd55bbf7,
     type: 2}
   ChangeWeaponSfx: {fileID: 0}
   UseContinuousShootSound: 0
@@ -1056,7 +1049,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.6
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1067,7 +1060,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 20
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1075,23 +1068,59 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
+      time: 0.05
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -20.007967
+      outSlope: -20.007967
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.1
+      value: 0.5
+      inSlope: -5.0019917
+      outSlope: -5.0019917
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2
+      value: 0.25
+      inSlope: -1.2504979
+      outSlope: -1.2504979
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.39397278
+      value: 0.09246826
+      inSlope: -0.31262448
+      outSlope: -0.31262448
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8
+      value: 0.012237549
+      inSlope: -0.07815612
+      outSlope: -0.07815612
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.05001994
+      outSlope: -0.05001994
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -1100,7 +1129,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.5
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
